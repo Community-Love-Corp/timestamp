@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@actions/core": "^1.10.0"
-  }
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^9.1.1"
+  },
+  "description": "Gives Date and time at any given moment. Can be helpful for versioning.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
