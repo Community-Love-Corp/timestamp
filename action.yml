@@ -1,13 +1,13 @@
-name: "Date Action"
-description: "Outputs today's day and date"
-author: "Jyotirmay Sarna"
+name: Date Action
+description: Outputs today's day and date
+author: Jyotirmay Sarna
 
-#	This is a Node.js action, which runs index.js
+# This is a Node.js action, which runs index.js
 runs:
-  using: "node20"
-  main: "index.js"
+  using: node20
+  main: dist/index.js
 
 # It exposes an output called today
 outputs:
   today:
-    description: "Today's formatted day and date"
+    description: Today's formatted day and date
